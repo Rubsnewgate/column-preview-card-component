@@ -1,5 +1,5 @@
 # frontend-mentor-challenge
-Challenge:  component of frontendMentor, completed.
+Challenge: Column preview card component of frontendMentor, completed.
 
 ------------
 #### Technologies I used:
