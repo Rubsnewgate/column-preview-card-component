@@ -25,7 +25,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   width: 100%;
-  height: 1500px;
+  height: auto;
 }
 
 .sedans-info {
@@ -39,6 +39,11 @@ body {
 @media screen and (min-width: 540px) and (max-width: 541px) {
   .main-wrapper {
     width: 420px;
+  }
+}
+@media screen and (height: 653px) {
+  body {
+    height: auto;
   }
 }
 
