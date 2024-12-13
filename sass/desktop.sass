@@ -1,0 +1,66 @@
+@use 'guide.sass'
+
+// Main Container
+.main-wrapper
+	display: grid
+	grid-template-columns: repeat(3, 2fr)
+	width: 900px
+	height: 500px
+	font-family: guide.$primary-font
+
+// Cards Styles
+.card
+	padding: 50px
+
+.sedans-info
+	background-color: guide.$bright-orange
+	border-radius: 10px 0 0 10px
+
+.suvs-info
+	background-color: guide.$dark-cyan
+
+.luxury-info
+	background-color: guide.$very-dark-cyan
+	border-radius: 0 10px 10px 0
+
+// Cards Content Styles
+.card__title
+	font-family: guide.$secondary-font
+	font-size: guide.$lg-size
+	color: guide.$very-light-gray
+	text-transform: uppercase
+
+.card__description
+	font-size: guide.$sm-size
+	line-height: 1.6
+	color: guide.$transparent-white
+
+// Button Card Styles
+.learn-btn
+	width: 150px
+	height: 50px
+	margin-top: 80px
+	font-size: guide.$sm-size
+	font-weight: bold
+	color: guide.$very-light-gray
+	border: solid 2px guide.$very-light-gray
+	border-radius: 25px
+	transition: background-color 600ms
+	&:hover
+		background-color: guide.$very-light-gray
+		cursor: pointer
+
+.sedans-btn
+	background-color: guide.$bright-orange
+	&:hover
+		color: guide.$bright-orange
+
+.suvs-btn
+	background-color: guide.$dark-cyan
+	&:hover
+		color: guide.$dark-cyan
+
+.luxury-btn
+	background-color: guide.$very-dark-cyan
+	&:hover
+		color: guide.$very-dark-cyan
